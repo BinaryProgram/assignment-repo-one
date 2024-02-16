@@ -1,1 +1,233 @@
-
+.image {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Banner\ Image.png) no-repeat;
+  width: 1300px;
+  height: 600px;
+  border-radius: 16px;
+  margin: 20px;
+  margin-left: 100px;
+}
+.centered h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 150px;
+}
+.centered h2 {
+  text-align: center;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#happyNew h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#happyNew p {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+#happyNew h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+#midnight {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Vectorrr.png) no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  width: 1320px;
+  height: 600px;
+  margin-left: 100px;
+  margin-top: 60px;
+  border-radius: 12px;
+}
+.join h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  margin-bottom: 40px;
+}
+.join p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.join button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.join {
+  width: 700px;
+  height: 500px;
+}
+.dateTime {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 1320px;
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin-top: 70px;
+  margin-left: 100px;
+  border-radius: 12px;
+}
+.dateTime button {
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 100px;
+}
+#name span {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+#name p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  margin: 0;
+}
+#name {
+  margin-top: 100px;
+  text-align: center;
+}
+#comingSoon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+#editPic {
+  padding: 15px;
+  border: 8px solid red;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.upcoming {
+  width: 500px;
+  margin-left: 100px;
+}
+.upcoming h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.upcoming small {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.editYear {
+  width: 500px;
+  margin-right: 50px;
+}
+#redMe {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.editYear h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.editYear small {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 0;
+}
